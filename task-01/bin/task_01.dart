@@ -20,8 +20,7 @@ void main() {
     String? choice = stdin.readLineSync()!;
     switch (choice) {
       case '1':
-        
-        // taskManager.addTask();
+    
         addTask(tasks);
         break;
       case '2':
